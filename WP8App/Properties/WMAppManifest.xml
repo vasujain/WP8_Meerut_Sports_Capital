@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{a29d5616-13b6-4463-b904-3a4fb4f12294}" Title="Meerut Sports Capital of India" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="" Description="Meerut (Hindi: मेरठ, Urdu: میرٹھ‎) is a city in the Indian state of Uttar Pradesh. It is an ancient city with settlements dating back to the Indus Valley civilization having been found in and around the area. The city lies 70 km (43 mi) northeast of the n" Publisher="" PublisherID="{e7d94c95-4681-45a0-a8b4-5df4e482fb9e}">
+    <IconPath IsRelative="true" IsResource="false">Images\Logo-01a40c2e-7820-4d8b-864d-12a1eec805ac.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING"/>
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO"/>
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK"/>
+      <Capability Name="ID_CAP_SENSORS"/>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
+	  <Capability Name="ID_CAP_SPEECH_RECOGNITION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="View/info_Info.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="MyDoWapp" TaskName="_default">
+		<TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">Images/Logo-01a40c2e-7820-4d8b-864d-12a1eec805ac.png</SmallImageURI>
+		  <Title>Meerut Sports Capital of India</Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">Images/Item-5db79275-659e-4d6a-9cdb-44203d9dc9fb.jpg</Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">Images/Item-ae43c547-496b-434a-98f5-ba08ff113c38.jpg</Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">Images/Item-ed8cf2ac-e0e3-4605-b301-56e8b989c585.jpg</Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">Images/Item-a41c26d9-e58f-4a02-9065-24ab4c35cb53.jpg</Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">Images/Item-02d2f327-9bbc-4b47-9009-af220ce46d71.jpg</Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">Images/Item-02d2f327-9bbc-4b47-9009-af220ce46d71.jpg</Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">Images/Item-d5461c44-66de-4bc5-bfd1-24dd1cd38bc8.jpg</Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">Images/Item-6a6b0000-cca6-435a-ae45-8cc3b7a0b930.jpg</Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">Images/Item-b5da1cad-ac1f-4cdb-898d-6ad840845d8e.jpg</Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>True</HasLarge>
+		  <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Extension ExtensionName="LockScreen_Notification_IconCount" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Notification_TextField" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
